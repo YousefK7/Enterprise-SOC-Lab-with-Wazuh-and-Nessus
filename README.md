@@ -17,13 +17,13 @@
      | • Wazuh Agent             |                                | • Wazuh Agent                |
      +---------------------------+                                +------------------------------+
                |                                                         |
-               | Logs forwarded by                                       | Logs forwarded by
-               | Wazuh Agent                                             | Wazuh Agent
+               | Security Events                                         | Security Events
+               | (via Wazuh Agent)                                       | (via Wazuh Agent)
                |                                                         |
                +-----------------------------+---------------------------+
                                              |
                                              v
-                     Physical PC #2 (Standalone Ubuntu Server)
+                     Physical PC #2 (Ubuntu Server)
                      =========================================
 
                          +------------------------------------+
