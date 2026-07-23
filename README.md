@@ -28,7 +28,7 @@
 
                          +------------------------------------+
                          | Ubuntu Server                      |
-                         |                                    |
+                         |     (Wazuh SIEM server)            |
                          | Wazuh Manager                      |
                          | Wazuh Indexer                      |
                          | Wazuh Dashboard                    |
