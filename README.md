@@ -2,14 +2,37 @@
 
 ## Project Overview
 
-> This project demonstrates the design and implementation of an enterprise Security Operations Center (SOC) laboratory using Wazuh SIEM, Active Directory, PowerShell monitoring, Windows event auditing, and Nessus vulnerability assessment.
+> This project demonstrates the design and implementation of an enterprise Security Operations Center (SOC) lab using Wazuh SIEM, Active Directory, Windows event auditing, PowerShell monitoring, and Nessus vulnerability assessment to simulate real-world security monitoring and incident detection.
 
 ---
 
 # Lab Architecture
 
-> **Insert Architecture Diagram Here**
+                          Physical PC #1 (Windows 11 Host)
+                          ===============================
 
+     +---------------------------+       Running VirtualBox       +------------------------------+
+     |       Windows 11 Host     | -----------------------------> |    Windows Server 2019       |
+     | • Nessus                  |                                | Active Directory / DNS / DC  |
+     | • Wazuh Agent             |                                | • Wazuh Agent                |
+     +---------------------------+                                +------------------------------+
+               |                                                         |
+               | Logs forwarded by                                       | Logs forwarded by
+               | Wazuh Agent                                             | Wazuh Agent
+               |                                                         |
+               +-----------------------------+---------------------------+
+                                             |
+                                             v
+                     Physical PC #2 (Standalone Ubuntu Server)
+                     =========================================
+
+                         +------------------------------------+
+                         | Ubuntu Server 24.04 LTS            |
+                         |                                    |
+                         | Wazuh Manager                      |
+                         | Wazuh Indexer                      |
+                         | Wazuh Dashboard                    |
+                         +------------------------------------+
 ---
 
 # Lab Components
