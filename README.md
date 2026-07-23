@@ -39,7 +39,7 @@
 
 | Component | Purpose |
 |-----------|---------|
-| Ubuntu Server | Wazuh Manager |
+| Ubuntu Server | Wazuh SIEM Server |
 | Windows Server 2019 | Active Directory Domain Controller |
 | Windows 11 | Administrative Workstation |
 | Wazuh | Security Information and Event Management (SIEM) |
