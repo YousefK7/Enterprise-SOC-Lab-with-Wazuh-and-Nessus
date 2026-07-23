@@ -59,6 +59,25 @@
 - Domain Admin Group Membership Changes
 - PowerShell Monitoring
 
+## 1. Successful Logon
+
+### Objective
+
+Verify that Wazuh detects successful authentication attempts on the Domain Controller.
+
+**Windows Event ID:** 4624
+
+**Wazuh Rule ID:** 60106
+
+### Detection Process
+
+A successful domain logon was performed using valid credentials.
+The event was generated on Windows Server 2019, collected by the Wazuh Agent, and forwarded to the Wazuh Manager where it triggered Rule 60106.
+
+### Evidence
+
+> Insert Wazuh Dashboard Screenshot
+
 ---
 
 # Vulnerability Assessment
