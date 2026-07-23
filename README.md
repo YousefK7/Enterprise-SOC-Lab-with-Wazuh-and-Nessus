@@ -13,7 +13,7 @@
 
      +---------------------------+       Running VirtualBox       +------------------------------+
      |    Windows 11 Host        | -----------------------------> |    Windows Server 2019       |
-     | • Nessus                  |                                | Active Directory / DNS / DC  |
+     | • Tenable Nessus          |                                | Active Directory / DNS / DC  |
      | • Wazuh Agent             |                                | • Wazuh Agent                |
      +---------------------------+                                +------------------------------+
                |                                                         |
@@ -28,7 +28,7 @@
 
                          +------------------------------------+
                          | Ubuntu Server                      |
-                         |     (Wazuh SIEM server)            |
+                         |     (Wazuh SIEM Server)            |
                          | Wazuh Manager                      |
                          | Wazuh Indexer                      |
                          | Wazuh Dashboard                    |
