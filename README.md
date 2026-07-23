@@ -27,7 +27,7 @@
                      =========================================
 
                          +------------------------------------+
-                         | Ubuntu Server 24.04 LTS            |
+                         | Ubuntu Server                      |
                          |                                    |
                          | Wazuh Manager                      |
                          | Wazuh Indexer                      |
