@@ -286,7 +286,7 @@ This type of event is considered highly critical because unauthorized changes to
 
 > **Active Directory Users and Computers**
 
-*(Insert Screenshot Here)*
+![Domain Admin Group Membership](screenshots/Detection-Scenarios/Domain%20Admin%20Group%20Membership%20in%20AD.png)
 
 > **Wazuh Dashboard**
 
