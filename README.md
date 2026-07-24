@@ -81,8 +81,7 @@ The event was generated on Windows Server 2019, collected by the Wazuh Agent, an
 
 > **Wazuh Dashboard**
 
-> Insert Wazuh Dashboard Screenshot
-
+screenshots/Detection-Scenarios/Authintcation Dashboard.jpeg
 ---
 
 ## 2. Failed Logon
@@ -121,7 +120,7 @@ Windows generated **Event ID 4740**, which was collected by the Wazuh Agent and 
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
+
 
 ## 4. User Account Creation
 
