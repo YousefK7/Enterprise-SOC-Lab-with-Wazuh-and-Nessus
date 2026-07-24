@@ -69,7 +69,8 @@ Verify that Wazuh detects successful authentication attempts on the Domain Contr
 
 **Wazuh Rule ID:** 60106
 
-**Wazuh Alert Level:** 3
+**Wazuh Alert Level:** 3 (Low severity)
+
 
 ### Detection Process
 
@@ -90,7 +91,7 @@ A failed logon attempt was generated using an incorrect password.
 
 **Wazuh Rule ID:** 60122
 
-**Wazuh Alert Level:** 3
+**Wazuh Alert Level:** 5 (Low severity)
 
 The detection workflow is identical to the Successful Logon scenario, except that Wazuh classified the event as a failed authentication attempt.
 
@@ -106,7 +107,7 @@ Verify that Wazuh detects user account lockout events after multiple failed auth
 
 **Wazuh Rule ID:** 60115
 
-**Wazuh Alert Level:** 
+**Wazuh Alert Level:** 9 (Medium Severity)
 
 ### Detection
 
@@ -130,7 +131,7 @@ Verify that Wazuh detects the creation of new user accounts in Active Directory.
 
 **Wazuh Rule ID:** 60109
 
-**Wazuh Alert Level:** 12
+**Wazuh Alert Level:** 8 (Medium Severity)
 
 ### Detection
 
@@ -160,7 +161,7 @@ Verify that Wazuh detects the deletion of Active Directory user accounts.
 
 **Wazuh Rule ID:** 60111
 
-**Wazuh Alert Level:** 12
+**Wazuh Alert Level:** 8 (Medium Severity)
 
 ### Detection
 
@@ -186,15 +187,15 @@ Verify that Wazuh detects password reset activities in Active Directory.
 
 **Windows Event ID:** 4724
 
-**Wazuh Rule:** Generic Windows EventChannel Rule
+**Wazuh Rule:** 60110
 
-**Wazuh Alert Level:** 12
+**Wazuh Alert Level:** 8 (Medium Severity)
 
 ### Detection
 
 A password reset operation was performed for an Active Directory user account.
 
-Windows generated **Event ID 4724**, which was collected by the Wazuh Agent and forwarded to the Wazuh Manager. Although this event does not have a dedicated Wazuh detection rule, it was successfully collected through the generic Windows EventChannel rules while preserving the original Windows Event ID.
+Windows generated **Event ID 4724**, which was collected by the Wazuh Agent and forwarded to the Wazuh Manager.Wazuh successfully detected the deletion event and generated **Rule ID 60110**, providing visibility into account removal activities.
 
 ### Evidence
 
@@ -209,11 +210,11 @@ Windows generated **Event ID 4724**, which was collected by the Wazuh Agent and 
 
 Verify that Wazuh detects when a disabled Active Directory user account is re-enabled.
 
-**Windows Event ID:** `4722`
+**Windows Event ID:** 4722
 
-**Wazuh Rule:** 60110
+**Wazuh Rule:** 60109
 
-**Wazuh Alert Level:** 8
+**Wazuh Alert Level:** 8 (Medium Severity)
 
 ### Detection
 
@@ -236,7 +237,7 @@ Verify that Wazuh detects when an Active Directory user account is disabled.
 
 **Windows Event ID:** 4725
 
-**Wazuh Rule:** 60110
+**Wazuh Rule:** 60111
 
 **Wazuh Alert Level:** 8 (Medium Severity)
 
@@ -266,7 +267,8 @@ Verify that Wazuh detects modifications to the **Domain Admins** security group.
 
 **Wazuh Rule ID:** 60159
 
-**Wazuh Alert Level:** 12
+**Wazuh Alert Level:** 12 (High severity)
+
 
 ### Detection
 
