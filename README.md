@@ -81,7 +81,7 @@ The event was generated on Windows Server 2019, collected by the Wazuh Agent, an
 
 > **Wazuh Dashboard**
 
-screenshots/Detection-Scenarios/Authintcation Dashboard.jpeg
+![Authentication Dashboard](screenshots/Detection-Scenarios/Authintcation%20Dashboard.jpeg)
 ---
 
 ## 2. Failed Logon
