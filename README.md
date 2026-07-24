@@ -120,7 +120,7 @@ Windows generated **Event ID 4740**, which was collected by the Wazuh Agent and 
 
 > **Wazuh Dashboard**
 
-
+![Account Lockout](screenshots/Detection-Scenarios/Account%20lockout.jpeg)
 
 ## 4. User Account Creation
 
@@ -144,12 +144,11 @@ Windows generated **Event ID 4720**, which was collected by the Wazuh Agent and 
 
 > **Active Directory Users and Computers**
 
-*(Insert Screenshot Here)*
+![User Account Creation AD](screenshots/Detection-Scenarios/user%20account%20creation%20AD.jpeg)
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
-
+![Create Account Wazuh](screenshots/Detection-Scenarios/create%20account%20wazuh.jpeg)
 ---
 
 ## 5. User Account Deletion
@@ -176,7 +175,7 @@ The detection workflow is identical to the **User Account Creation** scenario, w
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
+![Deleted Account Details](screenshots/Detection-Scenarios/another%20photo%20of%20deleted%20account.jpeg)
 
 ---
 
@@ -202,7 +201,7 @@ Windows generated **Event ID 4724**, which was collected by the Wazuh Agent and 
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
+![Reset Password](screenshots/Detection-Scenarios/rest%20password%20in%20wazuh.jpeg)
 
 ---
 ## 7. User Account Enabled
@@ -227,8 +226,7 @@ Windows generated **Event ID 4722**, which was collected by the Wazuh Agent and 
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
-
+![User Account Enabled](screenshots/Detection-Scenarios/user%20account%20enabled.jpeg)
 ---
 ## 8. User Account Disabled
 
@@ -254,7 +252,9 @@ The detection workflow is identical to the **User Account Enabled** scenario, wi
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
+![User Account Changed Disabled](screenshots/Detection-Scenarios/user%20account%20changed%20disabled.jpeg)
+
+![Account Disabled](screenshots/Detection-Scenarios/Account%20disabled.jpeg)
 
 ---
 
@@ -287,7 +287,9 @@ This type of event is considered highly critical because unauthorized changes to
 
 > **Wazuh Dashboard**
 
-*(Insert Screenshot Here)*
+![Alert of Join Account to Domain Admin](screenshots/Detection-Scenarios/alert%20of%20join%20account%20to%20domain%20admin.jpeg)
+
+![Domain Admins Group Changed](screenshots/Detection-Scenarios/Domain%20Admins%20Group%20changed.jpeg)
 
 
 ---
