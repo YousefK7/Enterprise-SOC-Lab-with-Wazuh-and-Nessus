@@ -288,9 +288,53 @@ This type of event is considered highly critical because unauthorized changes to
 
 
 ---
+
 # Vulnerability Assessment
 
-> Nessus Credentialed Scan
+To evaluate the security posture of the Active Directory environment, a credentialed vulnerability assessment was performed using **Tenable Nessus** against the Windows Server 2019 Domain Controller.
+
+## Scan Configuration
+
+The vulnerability assessment was configured as a **credentialed scan** using Windows authentication to provide comprehensive visibility into the target system.
+
+| Setting | Value |
+|---------|-------|
+| Scanner | Tenable Nessus |
+| Scan Type | Credentialed Scan |
+| Target | Windows Server 2019 Domain Controller |
+| Authentication | Windows Credentials |
+| Purpose | Identify missing security updates, insecure configurations, and known vulnerabilities |
+
+> **Insert Scan Configuration Screenshot Here**
+
+## Scan Results
+
+The credentialed Nessus scan identified multiple security findings across the Windows Server 2019 Domain Controller. The assessment revealed several missing security updates and known vulnerabilities that could impact the confidentiality, integrity, and availability of the system if left unpatched.
+
+### Vulnerability Summary
+
+| Severity      | Count |
+| ------------- | ----: |
+| Critical      |    46 |
+| High          |    77 |
+| Medium        |    7  |
+| Low           |    77 |
+| Info          |    173|
+
+> **Insert Nessus Scan Results Screenshot Here**
+
+## Key Findings
+
+The vulnerability assessment identified several high-risk findings. The most significant vulnerabilities are summarized below.
+
+| Vulnerability | Severity | Description |
+|--------------|----------|-------------|
+| SIGRed (CVE-2020-1350) | Critical | Remote code execution vulnerability affecting Microsoft DNS Server. |
+| SMB Security Issues | High | SMB-related vulnerabilities and security configuration weaknesses. |
+| Microsoft .NET Framework | High | Missing security updates affecting the .NET Framework. |
+| Adobe Acrobat / Reader | High | Missing security patches for Adobe products. |
+
+> **Insert Scan Configuration Screenshot Here**
 
 ---
 
