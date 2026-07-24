@@ -174,8 +174,8 @@ The detection workflow is identical to the **User Account Creation** scenario, w
 ### Evidence
 
 > **Wazuh Dashboard**
-![alertOfDeletedAccount](screenshots/Detection-Scenarios/alertOfDeletedAccount.jpeg)
-
+![Deleted Account Alert](screenshots/Detection-Scenarios/alertOfDeletedAccount.png)
+> 
 ![Deleted Account Details](screenshots/Detection-Scenarios/another%20photo%20of%20deleted%20account.jpeg)
 
 ---
