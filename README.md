@@ -79,6 +79,8 @@ The event was generated on Windows Server 2019, collected by the Wazuh Agent, an
 
 ### Evidence
 
+> **Wazuh Dashboard**
+
 > Insert Wazuh Dashboard Screenshot
 
 ---
