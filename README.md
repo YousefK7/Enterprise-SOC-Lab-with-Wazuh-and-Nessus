@@ -346,10 +346,10 @@ The vulnerability assessment identified several high-risk findings. The most sig
  **SIGRed (CVE-2020-1350)**
  ![SIGRed](screenshots/Vulnerability-Assessment/SIGRed%20(CVE-2020-1350).jpeg)
  
- **Adobe Acrobat / Reader **
+ **Adobe Acrobat / Reader**
  ![Adobe Acrobat Reader](screenshots/Vulnerability-Assessment/Adobe-Acrobat-Reader.jpeg)
 
- ** Microsoft .NET Framework**
+ **Microsoft .NET Framework**
  ![Microsoft .NET Framework](screenshots/Vulnerability-Assessment/Microsoft.NET-Framework.png)
 
 
