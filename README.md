@@ -46,7 +46,71 @@
 | Nessus | Vulnerability Assessment |
 
 ---
+# Active Directory
 
+A Windows Server 2019 virtual machine was configured as the Domain Controller for the lab environment by deploying **Active Directory Domain Services (AD DS)**. The domain provides centralized identity management, authentication, and administrative control for the Windows clients monitored by Wazuh.
+
+The Active Directory environment was used throughout the project to generate authentication events, account management activities, and privilege-related changes that were later detected and analyzed by the SIEM platform.
+
+---
+
+## Domain Configuration
+
+The Windows Server was promoted to a Domain Controller and configured with the **TEST.local** domain. This server acts as the central authentication authority for all domain users and computers within the lab.
+
+| Component | Configuration |
+|-----------|---------------|
+| Operating System | Windows Server 2019 |
+| Computer Name | DC |
+| Domain | TEST.local |
+| Server Role | Active Directory Domain Services (AD DS) |
+
+![Domain Configuration](screenshots/Active-Directory/Domain-Configuration.png)
+
+---
+
+## Organizational Unit (OU) Structure
+
+To simulate a real enterprise environment, Organizational Units (OUs) were created to logically separate users by department. A parent OU (**Users - OU**) was created, containing dedicated OUs for Human Resources, Information Technology, and Security Operations.
+
+The following organizational structure was implemented:
+
+- Users - OU
+  - HR
+  - IT
+  - SOC
+
+![OU Structure](screenshots/Active-Directory/OU-Structure.png)
+
+---
+
+## User and Group Management
+
+User accounts and security groups were created to simulate role-based administration within the Active Directory environment.
+
+Example user accounts created during the lab include:
+
+- IT Admin
+- IT Support
+
+Example security groups include:
+
+- HR_Users
+- IT_Admins
+- IT_Users
+- SOC_Analysts
+
+These accounts and groups were later used to generate security events, including account creation, account deletion, privilege changes, password resets, account lockouts, and group membership modifications that were monitored by Wazuh.
+
+### User Accounts
+
+![User Accounts](screenshots/Active-Directory/User-Accounts.png)
+
+### Security Groups
+
+![Security Groups](screenshots/Active-Directory/Security-Groups.png)
+
+---
 # Detection Scenarios
 
 - Successful Logon
