@@ -313,9 +313,9 @@ The vulnerability assessment was configured as a **credentialed scan** using Win
 | Authentication | Windows Credentials |
 | Purpose | Identify missing security updates, insecure configurations, and known vulnerabilities |
 
-![Nessus Scan Configuration 1](screenshots/Vulnerability-Assessment/Scan-Configuration-Screenshot-1.jpeg)
+![Scan Configuration - Part 1](screenshots/vulnerability-assessment/Scan-Configuration-Screenshot-1.jpeg)
 
-![Nessus Scan Configuration 2](screenshots/Vulnerability-Assessment/Scan-Configuration-Screenshot-2.jpeg)
+![Scan Configuration - Part 2](screenshots/vulnerability-assessment/Scan-Configuration-Screenshot-2.jpeg)
 
 ## Scan Results
 
@@ -331,7 +331,7 @@ The credentialed Nessus scan identified multiple security findings across the Wi
 | Low           |    77 |
 | Info          |    173|
 
-![Nessus Scan Results](screenshots/Vulnerability-Assessment/Nessus-Scan-Results-Screenshot.jpeg)
+![Nessus Scan Results](screenshots/vulnerability-assessment/Nessus-Scan-Results-Screenshot.jpeg)
 
 ## Key Findings
 
@@ -345,16 +345,15 @@ The vulnerability assessment identified several high-risk findings. The most sig
 
  > **SIGRed (CVE-2020-1350)**
 
- ![SIGRed](screenshots/Vulnerability-Assessment/SIGRed%20(CVE-2020-1350).jpeg)
- 
+![SIGRed (CVE-2020-1350)](screenshots/vulnerability-assessment/SIGRed%20(CVE-2020-1350).jpeg)
+
  > **Adobe Acrobat / Reader**
 
- ![Adobe Acrobat Reader](screenshots/Vulnerability-Assessment/Adobe-Acrobat-Reader.jpeg)
+![Adobe Acrobat Reader](screenshots/vulnerability-assessment/Adobe-Acrobat-Reader.jpeg)
 
  > **Microsoft .NET Framework**
 
- ![Microsoft .NET Framework](screenshots/Vulnerability-Assessment/Microsoft.NET-Framework.png)
-
+![Microsoft .NET Framework](screenshots/vulnerability-assessment/Microsoft.NET-Framework.png)
 
 ---
 
