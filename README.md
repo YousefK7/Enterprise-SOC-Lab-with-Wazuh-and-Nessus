@@ -65,8 +65,7 @@ The Windows Server was promoted to a Domain Controller and configured with the *
 | Domain | TEST.local |
 | Server Role | Active Directory Domain Services (AD DS) |
 
-![Domain Configuration](screenshots/Active-Directory/Domain-Configuration.png)
-
+![Domain Configuration](screenshots/Active-Directory/Domain-Controller-screenshot.png)
 ---
 
 ## Organizational Unit (OU) Structure
@@ -80,8 +79,7 @@ The following organizational structure was implemented:
   - IT
   - SOC
 
-![OU Structure](screenshots/Active-Directory/OU-Structure.png)
-
+![OU Structure](screenshots/Active-Directory/OU-Structure-screenshot.png)
 ---
 
 ## User and Group Management
