@@ -361,6 +361,14 @@ The vulnerability assessment identified several high-risk findings. The most sig
 
 > Security updates and vulnerability mitigation.
 
+Based on the assessment results, the following remediation actions are recommended:
+
+- Apply the latest Microsoft cumulative security updates.
+- Patch the Microsoft .NET Framework to the latest supported version.
+- Remove unsupported software such as Adobe Flash Player.
+- Regularly perform credentialed vulnerability assessments.
+- Verify remediation by rescanning the affected systems.
+
 ---
 
 # Lessons Learned
