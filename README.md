@@ -373,6 +373,6 @@ Based on the assessment results, the following remediation actions are recommend
 
 # Lessons Learned
 
----
+The credentialed vulnerability assessment successfully identified multiple critical and high-risk vulnerabilities affecting the Active Directory Domain Controller. These findings demonstrate the effectiveness of credentialed scanning in identifying operating system weaknesses, missing security updates, and unsupported software that may not be visible through unauthenticated network scans.
 
-# Conclusion
+---
