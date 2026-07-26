@@ -134,7 +134,7 @@ Verify that Wazuh detects successful authentication attempts on the Domain Contr
 **Wazuh Alert Level:** 3 (Low severity)
 
 
-### Detection Process
+### Detection Process in Wazuh (SEIM)
 
 A successful domain logon was performed using valid credentials.
 The event was generated on Windows Server 2019, collected by the Wazuh Agent, and forwarded to the Wazuh Manager where it triggered Rule 60106.
