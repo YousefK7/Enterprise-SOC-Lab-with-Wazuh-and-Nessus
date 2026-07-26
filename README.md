@@ -86,7 +86,7 @@ These accounts and groups were later used to generate security events, including
 ![Security Groups](screenshots/Active-Directory/Security-Groups.png)
 
 ---
-# Detection Scenarios
+# Detection Scenarios in Wazuh (SIEM)
 
 - Successful Logon
 - Failed Logon
