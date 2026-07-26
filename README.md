@@ -8,31 +8,8 @@
 
 # Lab Architecture
 
-                          Physical PC #1 (Windows 11 Host)
-                          ===============================
+![Active Directory Diagram](screenshots/Active-Directory/Untitled%20Diagram.drawio.png)
 
-     +---------------------------+       Running VirtualBox       +------------------------------+
-     |    Windows 11 Host        | -----------------------------> |    Windows Server 2019       |
-     | • Tenable Nessus          |                                | Active Directory / DNS / DC  |
-     | • Wazuh Agent             |                                | • Wazuh Agent                |
-     +---------------------------+                                +------------------------------+
-               |                                                         |
-               | Security Events                                         | Security Events
-               | (via Wazuh Agent)                                       | (via Wazuh Agent)
-               |                                                         |
-               +-----------------------------+---------------------------+
-                                             |
-                                             v
-                     Physical PC #2 (Ubuntu Server)
-                     =========================================
-
-                         +------------------------------------+
-                         | Ubuntu Server                      |
-                         |     (Wazuh SIEM Server)            |
-                         | Wazuh Manager                      |
-                         | Wazuh Indexer                      |
-                         | Wazuh Dashboard                    |
-                         +------------------------------------+
 ---
 
 # Lab Components
